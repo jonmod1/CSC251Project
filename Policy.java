@@ -9,8 +9,8 @@ public class Policy
     private String policyholderLastName;
     private int policyholderAge;
     private String smokingStatus;
-    private double weight;
     private double height;
+    private double weight;
     
     
     public Policy()
@@ -39,8 +39,8 @@ public class Policy
         this.policyholderLastName = policyholderLastName;
         this.policyholderAge = policyholderAge;
         this.smokingStatus = smokingStatus;
-        this.height = weight;
-        this.weight = height;
+        this.height = height;
+        this.weight = weight;
     }
     
     public int getPolicyNumber()
@@ -73,14 +73,14 @@ public class Policy
         return smokingStatus;
     }
 
-    public double getWeight()
-    {
-        return weight;
-    }
-
     public double getHeight()
     {
         return height;
+    }
+
+    public double getWeight()
+    {
+        return weight;
     }
     
     
@@ -114,14 +114,14 @@ public class Policy
         this.smokingStatus = smokingStatus;
     }
 
-    public void setHeight(double weight)
-    {
-        this.weight = weight;
-    }
-
-    public void setWeight(double height)
+    public void setHeight(double height)
     {
         this.height = height;
+    }
+
+    public void setWeight(double weight)
+    {
+        this.weight = weight;
     }
  
  
