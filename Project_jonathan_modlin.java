@@ -53,6 +53,9 @@ public class Project_jonathan_modlin
         System.out.println("\nPolicyholder's Smoking Status: " + policy.getSmokingStatus());
         System.out.println("\nPolicyholder's Height: " + policy.getHeight() + " inches");
         System.out.println("\nPolicyholder's Weight: " + policy.getWeight() + " pounds");
+        System.out.println("There were " + Policy.getPolicyCount() + " Policy objects created.");
+        System.out.println("The number of policies with a smoker is: " + smokerCount);
+        System.out.println("The number of policies with a non-smoker is: " + nonSmokerCount);
 
         System.out.printf("\nPolicyholder's BMI: %.2f\n", policy.calculateBMI());
         System.out.printf("\nPolicy Price: $%.2f\n", policy.calculatePrice());
